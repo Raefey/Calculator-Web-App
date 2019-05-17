@@ -8,4 +8,8 @@ class Smartcal:
 
     @staticmethod
     def subtract(arg_1, arg_2):
-        return (arg_1 - arg_2)
+        return arg_1 - arg_2
+
+    @staticmethod
+    def multiply(arg_1, arg_2):
+        return arg_1 * arg_2
