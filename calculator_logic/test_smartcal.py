@@ -15,3 +15,5 @@ class TestSmartcal:
     def test_divide(self):
         assert Smartcal.divide(25, 5) == 5
 
+    def test_indices(self):
+        assert Smartcal.indices(5, 4) == 625
